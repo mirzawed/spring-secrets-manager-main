@@ -1,0 +1,2 @@
+com\secrets\manager\springsecretsmanager\SpringSecretsManagerApplication.class
+com\secrets\manager\springsecretsmanager\config\AwsSecretsManagerBootstrapConfiguration.class
