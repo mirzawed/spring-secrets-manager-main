@@ -17,6 +17,7 @@ import com.amazonaws.services.secretsmanager.AWSSecretsManagerClientBuilder;
 @EnableConfigurationProperties(AwsSecretsManagerProperties.class)
 @ConditionalOnClass({ AWSSecretsManager.class })
 @ConditionalOnProperty(prefix = AwsSecretsManagerProperties.CONFIG_PREFIX, name = "enabled", matchIfMissing = true)
+//UPDATED
 public class AwsSecretsManagerBootstrapConfiguration {
 	public static final String REGION = "us-east-2";
 
